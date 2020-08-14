@@ -15,8 +15,11 @@ let cpu_string= JSON.stringify(cpu);
 });
 */
 
-
-console.log(mi.datos);
+mi.saludar;
+setTimeout(() => {
+    console.log("trabajo terminado")
+}, 2000);
+//console.log(mi.datos);
 //console.log(cpu);
 //console.log(sist);
 //console.log(user);

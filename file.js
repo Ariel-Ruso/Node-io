@@ -4,5 +4,7 @@ function saludar(){
 
 let datos= 2500;
 
-//module.exports.datos= datos;
+module.exports.datos= datos;
+
+//ej d funcion flecha
 module.exports.saludar= saludar();
